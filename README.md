@@ -5,7 +5,8 @@ An overview plot for Monte Carlo simulation studies.
 
 ## Example
 #### Generating Artificial Data
-`n = c(500, 1000, 5000)  
+```{r}
+n = c(500, 1000, 5000)  
 DGP = c(1:4)  
 lambda = c(0.25, 0.5, 0.75)   
  methods = c(letters[1:5])  
@@ -16,7 +17,8 @@ lambda = c(0.25, 0.5, 0.75)
        methods = methods     
    )  
   data$bias = rnorm(dim(data)[1])  
-  data$rmse = runif(dim(data)[1])`  
+  data$rmse = runif(dim(data)[1])
+```  
   #### Draw the Plot
  `simlationPlot (  
     data,  
