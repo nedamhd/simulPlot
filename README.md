@@ -22,7 +22,7 @@ lambda = c(0.25, 0.5, 0.75)
   #### Draw the Plot
   
 ```{r, data}
-simulPlot::simlationPlot (  
+simulPlot::simulationPlot (  
     data,  
     parameters = ~ n:DGP:lambda,  
    methods = "methods",  
