@@ -4,7 +4,7 @@ An overview plot for Monte Carlo simulation studies.
 `devtools::install_github("nedamhd/simulPlot")`
 
 ## Example
-### Generating Artificial Data
+`### Generating Artificial Data
  n = c(500, 1000, 5000)
  DGP = c(1:4)
  lambda = c(0.25, 0.5, 0.75)
@@ -25,3 +25,4 @@ An overview plot for Monte Carlo simulation studies.
     bias = "bias",
     rmse = "rmse"
   )
+`
