@@ -6,10 +6,7 @@ Author: Neda Mohammadi
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-Imports: 
-     ggh4x
-     ggplot2
-     dplyr
+Imports:  ggh4x, ggplot2, dplyr
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
