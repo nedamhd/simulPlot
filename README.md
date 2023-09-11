@@ -6,9 +6,10 @@ An overview plot for Monte Carlo simulation studies.
 ## Example
 #### Generating Artificial Data
 ` n = c(500, 1000, 5000) 
-**
-**
+  **Enter**
 DGP = c(1:4)
+
+
  lambda = c(0.25, 0.5, 0.75)
  methods = c(letters[1:5])
  data = expand.grid(
