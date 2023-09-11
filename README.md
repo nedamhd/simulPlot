@@ -31,3 +31,5 @@ simulPlot::simulationPlot (
   )
 ```
 
+![image](https://github.com/nedamhd/simulPlot/assets/38834367/4898f7bb-d851-49a0-8e32-c6dbe4caa5b8)
+
