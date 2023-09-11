@@ -1,4 +1,4 @@
 # simulPlot
 An overview plot for Monte Carlo simulation studies.
-Run this code for installation:
+## Installation: Run the code for installing:
 `devtools::install_github("nedamhd/simulPlot")`
