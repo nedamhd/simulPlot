@@ -39,5 +39,6 @@ simulPlot::simulationPlot (
   )
 ```
 
+![plot](https://github.com/nedamhd/simulPlot/assets/38834367/c1d42a07-1b52-4013-bdbf-a2974803c88b)
 
-![plot](https://github.com/nedamhd/simulPlot/assets/38834367/99f41a0e-2a44-4ba2-a938-2a3f04dfe8b5)
+
