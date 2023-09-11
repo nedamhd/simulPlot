@@ -30,3 +30,5 @@ simulPlot::simulationPlot (
     rmse = "rmse"  
   )
 ```
+
+![Example Plot](/C:/Users/Neda/Dropbox/Final DID/simulPlot/plot.png "Simulation Plot")
