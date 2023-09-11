@@ -17,7 +17,7 @@ An overview plot for Monte Carlo simulation studies.
    )
   data$bias = rnorm(dim(data)[1])
   data$rmse = runif(dim(data)[1])
-  # Draw the Plot
+  #### Draw the Plot
   simlationPlot (
     data,
     parameters = ~ n:DGP:lambda,
