@@ -31,4 +31,3 @@ simulPlot::simulationPlot (
   )
 ```
 
-![Example Plot](/C:/Users/Neda/Dropbox/Final DID/simulPlot/plot.png "Simulation Plot")
