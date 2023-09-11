@@ -60,7 +60,7 @@ The name of rmse variable.
   data$bias = rnorm(dim(data)[1])
   data$rmse = runif(dim(data)[1])
   # Draw the Plot
-  simlationPlot (
+  simulationPlot (
     data,
     parameters = ~ n:DGP:lambda,
    methods = "methods",

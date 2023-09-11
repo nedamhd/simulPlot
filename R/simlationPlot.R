@@ -1,38 +1,5 @@
-#' Title An overview plot for monte carlo simulation studies
-#' @author Neda Mohammadi
-#' @param data A long format of data frame including the methods, parameters, bias, and rmse.
-#' @param parameters A formula of parameters (e.g. ~ n+ lambda).
-#' @param methods The name of methods variable.
-#' @param bias The name of bias variable.
-#' @param rmse The name of rmse variable.
-#'
-#' @return a plot of ggplot2 class.
-#' @export
-#'
-#' @examples
-#' # Generating Artificial Data
-#'n = c(500, 1000, 5000)
-#'DGP = c(1:4)
-#'lambda = c(0.25, 0.5, 0.75)
-#'methods = c(letters[1:5])
-#'data = expand.grid(
-  #'  n = n,
-  #'  DGP = DGP,
-  #'  lambda = lambda,
-  #'  methods = methods
-  #')
-  #'data$bias = rnorm(dim(data)[1])
-  #'data$rmse = runif(dim(data)[1])
-  #'# Draw the Plot
-  #'simlationPlot (
-  #'  data,
-  #'  parameters = ~ n:DGP:lambda,
-  #'  methods = "methods",
-  #'  bias = "bias",
-  #'  rmse = "rmse"
-  #')
 
-simlationPlot = function(data, parameters, methods, bias, rmse) {
+simulationPlot = function(data, parameters, methods, bias, rmse) {
   require(dplyr)
   interaction.data = data[, all.vars(parameters)]
   data$interaction =  interaction(interaction.data)
