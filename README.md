@@ -20,10 +20,13 @@ lambda = c(0.25, 0.5, 0.75)
   data$rmse = runif(dim(data)[1])
 ```  
   #### Draw the Plot
- `simlationPlot (  
+  
+```{r, data}
+simulPlot::simlationPlot (  
     data,  
     parameters = ~ n:DGP:lambda,  
    methods = "methods",  
     bias = "bias",  
     rmse = "rmse"  
-  )`
+  )
+```
