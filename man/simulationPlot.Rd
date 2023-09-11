@@ -2,31 +2,23 @@
 \name{simulPlot}
 \alias{simulPlot}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-%%  ~~An overview plot for monte carlo simulation studies.~~
-}
-\description{
-%%  ~~ This package aims to simplify the process by offering a convenient way to generate comprehensive overview plots that summarize the key findings of simulation studies. ~~
-}
+\title{An overview plot for monte carlo simulation studies.}
+\description{This package aims to simplify the process by offering a convenient way to generate comprehensive overview plots that summarize the key findings of simulation studies.}
 \usage{
 simulPlot(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{data}{
-%%     ~~A long format of data frame including the methods, parameters, bias, and rmse.~~
-}
-  \item{parameters}{
-%%     ~~A formula of parameters (e.g. ~ n+ lambda).~~
+  \item{data}{A long format of data frame including the methods, parameters, bias, and rmse.}
+  \item{parameters}{A formula of parameters (e.g. ~ n+ lambda).
 }
   \item{methods}{
-%%     ~~The name of methods variable.~~
-}
+The name of methods variable.}
   \item{bias}{
-%%     ~~The name of bias variable.~~
+The name of bias variable.
 }
   \item{rmse}{
-%%     ~~The name of rmse variable.~~
+The name of rmse variable.
 }
 }
 \details{
@@ -42,9 +34,7 @@ simulPlot(x)
 \references{
 %% ~put references to the literature/web site here ~
 }
-\author{
-%%  ~~Neda Mohammadi~~
-}
+\author{Neda Mohammadi}
 \note{
 %%  ~~further notes~~
 }
