@@ -34,7 +34,7 @@ The name of rmse variable.
 \references{
 %% ~put references to the literature/web site here ~
 }
-\author{Neda Mohammadi}
+\author{Neda Mohammadi\href{mailto:n.mohammadi.24@gmail.com}}
 \note{
 %%  ~~further notes~~
 }
@@ -70,8 +70,8 @@ The name of rmse variable.
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
+% \keyword{ Simulation }
+% \keyword{ Plot }
 % Use only one keyword per line.
 % For non-standard keywords, use \concept instead of \keyword:
 % \concept{ ~cpt1 }
