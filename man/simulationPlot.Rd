@@ -67,7 +67,7 @@ data$DGP=factor(data$DGP,levels = c(1:4),labels =
 data$bias = rnorm(dim(data)[1])
 data$rmse = runif(dim(data)[1])
 # Draw the Plot
-plot=simulationPlot (
+plot=simulPlot (
   data,
   parameters = ~ n:DGP:lambda,
   methods = "methods",
