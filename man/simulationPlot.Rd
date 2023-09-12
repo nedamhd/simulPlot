@@ -1,11 +1,11 @@
 
-\name{simulPlot}
-\alias{simulPlot}
+\name{simulationPlot}
+\alias{simulationPlot}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{An overview plot for monte carlo simulation studies.}
 \description{This package aims to simplify the process by offering a convenient way to generate comprehensive overview plots that summarize the key findings of simulation studies.}
 \usage{
-simulPlot(x)
+simulationPlot(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
