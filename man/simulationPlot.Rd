@@ -1,5 +1,5 @@
 
-\name{simulPlot}
+\name{simulationPlot}
 \alias{simulationPlot}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{An overview plot for monte carlo simulation studies.}
