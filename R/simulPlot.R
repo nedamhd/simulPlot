@@ -1,0 +1,3 @@
+simulPlot<-function(...){
+  simulPlot::simulationPlot(...)
+}
